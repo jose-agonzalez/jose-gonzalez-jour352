@@ -1,0 +1,36 @@
+
+
+h1, h2, h3, .navbar-brand, .btn {
+  font-family: 'Special Elite', cursive;
+}
+
+
+.row {
+  padding-bottom: 50px;
+}
+
+.column-content {
+  text-align: center;
+}
+
+.section-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+.feature-icon {
+  font-size: 3em;
+}
+
+@media only screen and (max-width: 500px) {
+  h2 {
+    padding-top: 50px;
+  }
+
+  .btn {
+    background-color: teal;
+    border-color: teal;
+    color: white;
+  }
+}
